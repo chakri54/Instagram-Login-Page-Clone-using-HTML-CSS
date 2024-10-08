@@ -1,0 +1,151 @@
+.b1 {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 20px;
+}
+
+#left {
+    margin-right: 50px;
+    align-self: center;
+}
+
+#left img {
+    height: 600px;
+    width: 470px;
+}
+
+#right {
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border: 0.5px solid rgba(79, 78, 78, 0.27);
+    border-radius: 5px;
+}
+
+#right p {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#right input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+#right button {
+    background-color: #3897f0;
+    width: 100%;
+    height: 35px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#right button:hover {
+    background-color: #3578e5;
+}
+
+#login_with_facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#login_with_facebook img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+#login_with_facebook p {
+    margin: 0;
+    font-size: small;
+    color: #385185;
+    font-weight: bold;
+}
+
+#forget {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#forget a {
+    font-size: small;
+    color: #00376b;
+    text-decoration: none;
+}
+
+#forget a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #dbdbdb;
+    margin: 20px 0;
+}
+
+#dont_have_account_box {
+    background-color: white;
+    width: 350px;
+    height: 25px;
+    padding: 20px;
+    border: 0.5px solid rgba(79, 78, 78, 0.27);
+    border-radius: 1px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#dont_have_account_box p {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 100%;
+}
+
+#dont_have_account_box a {
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dont_have_account_box a:hover {
+    text-decoration: underline;
+}
+
+#play {
+    background-color: white;
+    width: 350px;
+    height: 35px;
+    padding: 20px;
+    border: 0px solid rgba(79, 78, 78, 0.27);
+    text-align: center;
+}
+
+#play #img1 img {
+    margin-left: 10px;
+    width: 85px;
+    height: 30px;
+}
+
+#get {
+    background-color: white;
+    width: 350px;
+    height: 10px;
+    padding: 10px;
+    border: 0px solid rgba(79, 78, 78, 0.27);
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 0.1px;
+    text-align: center;
+}
